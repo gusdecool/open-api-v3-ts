@@ -1,0 +1,20 @@
+{
+  "extends": "tslint:recommended",
+  "rules": {
+    "import-spacing": false,
+    "max-line-length": {
+      "severity": "warning",
+      "options": [120]
+    },
+    "object-literal-sort-keys": false,
+    "ordered-imports": false,
+    "trailing-comma": false,
+    "quotemark": {
+      "options": [
+        "single",
+        "jsx-double",
+        "avoid-escape"
+      ]
+    }
+  }
+}
