@@ -1,5 +1,5 @@
 {
-  "name": "open-api-v3",
+  "name": "@gusdecool/open-api-v3",
   "version": "0.1.0",
   "description": "Open Api v3 specs for Typescript",
   "main": "index.js",
