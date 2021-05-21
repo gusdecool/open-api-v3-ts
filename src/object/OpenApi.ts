@@ -50,7 +50,7 @@ export default interface OpenApi {
      * the (optionally referenced) Path Item Object describes a request that may be initiated by the API provider
      * and the expected responses. An example is available.
      */
-    webhooks?: {[name: string]: string | PathItem | Reference};
+    webhooks?: {[name: string]: PathItem | Reference};
 
     /**
      * An element to hold various schemas for the document.
